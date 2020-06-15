@@ -1,4 +1,4 @@
-# Celsius APP API Start Kit
+# Celsius APP API Starter Kit
 
 So you want to pull data programmatically from your Celsius account via API eh? No worries.
 This is the starter kit to get you off your feet and creating in no time.
