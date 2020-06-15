@@ -1,0 +1,32 @@
+{
+  "name": "celsius-app-api-kit",
+  "version": "1.0.0",
+  "description": "Starter kit for using the read only api from the Celsius App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rguarascia/Celsius-App-API-Kit.git"
+  },
+  "keywords": [
+    "Celsius",
+    "Celsius",
+    "API",
+    "Celsius",
+    "network",
+    "Celsius",
+    "Partner",
+    "Key"
+  ],
+  "author": "Ryan Guarascia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rguarascia/Celsius-App-API-Kit/issues"
+  },
+  "homepage": "https://github.com/rguarascia/Celsius-App-API-Kit#readme",
+  "dependencies": {
+    "celsius-sdk": "^0.10.12"
+  }
+}
