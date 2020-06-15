@@ -1,5 +1,5 @@
 // Ryan Guarascia
-// July, 14, 2020
+// June, 14, 2020
 // Starter kit for users trying to use the Celsius Network APP API key to read data out of the app.
 
 const {
@@ -17,10 +17,10 @@ init();
  */
 function init() {
     readKeys();
-    runCelsius('balance');
+    // runCelsius('balance');
     // runCelsius("interest");
     // runCelsius('stats');
-    // runCelsius('pagetation');
+    // runCelsius('pagination');
 }
 
 /**
@@ -68,10 +68,10 @@ function runCelsius(call) {
                     console.log(error);
                 })
                 break;
-            case 'pagetation':
+            case 'pagination':
                 const pagination = {
                     page: 1,
-                    perPage: 20
+                    perPage: 1
                 }
 
                 celsius.getTransactionSummary(pagination, process.env.APP_KEY).then((transactions) => {
