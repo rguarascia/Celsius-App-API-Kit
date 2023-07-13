@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/rguarascia/Celsius-App-API-Kit#readme",
   "dependencies": {
-    "celsius-sdk": "^0.10.12"
+    "celsius-sdk": "^1.0.0"
   }
 }
